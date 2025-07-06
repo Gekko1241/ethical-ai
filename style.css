@@ -56,3 +56,33 @@
 .contact-button:hover {
   background-color: #0080ff;
 }
+.warning-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff4f4;
+  border-left: 8px solid #cc0000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+  color: #222;
+}
+
+.warning-section h2 {
+  font-size: 28px;
+  color: #cc0000;
+  margin-bottom: 16px;
+}
+
+.warning-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+
+.danger-text {
+  font-weight: bold;
+  color: #990000;
+  font-size: 20px;
+  margin-top: 24px;
+}
