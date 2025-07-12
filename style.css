@@ -114,11 +114,6 @@
   max-width: 300px;
   height: auto;
 }
-.site-logo {
-  background-color: #f9f9f9; /* zelfde als mission-statement */
-  padding: 20px 0;           /* ruimte boven en onder het logo */
-  text-align: center;        /* centreren van de afbeelding */
-}
 
 .site-logo img {
   max-width: 300px;          /* logo schaalt automatisch tot max 300px breed */
