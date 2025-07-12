@@ -111,10 +111,10 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .site-logo img {
-  max-width: 300px;
+  max-width: 600px; /* verhoogd van 300 naar 600 */
+  width: 100%;
   height: auto;
 }
-
 .site-logo img {
   max-width: 300px;          /* logo schaalt automatisch tot max 300px breed */
   width: 100%;
