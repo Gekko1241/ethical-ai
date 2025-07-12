@@ -110,11 +110,6 @@
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.site-logo {
-  background-color: #f9f9f9;
-  padding: 20px 0;
-  text-align: center;
-}
 .site-logo img {
   max-width: 300px;
   height: auto;
@@ -136,8 +131,3 @@
   text-align: center;        /* centreren van de afbeelding */
 }
 
-.site-logo img {
-  max-width: 300px;          /* schaalt tot max 300px breed */
-  width: 100%;
-  height: auto;
-}
