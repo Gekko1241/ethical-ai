@@ -1,12 +1,143 @@
-/* LOGO BANNER */
-.site-logo {
-  background-color: #f9f9f9;  /* past bij mission-statement */
-  padding: 20px 0;
+.mission-statement {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
   text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.mission-statement h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: #003366;
+}
+
+.mission-statement p {
+  font-size: 18px;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.mission-statement strong {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #000;
+}
+
+.mission-actions a {
+  display: inline-block;
+  margin: 12px 10px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-button {
+  background-color: #004080;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #0055aa;
+}
+
+.contact-button {
+  background-color: #0066cc;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #0080ff;
+}
+.warning-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff4f4;
+  border-left: 8px solid #cc0000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+  color: #222;
+}
+
+.warning-section h2 {
+  font-size: 28px;
+  color: #cc0000;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.site-logo {
+  background-color: #f9f9f9; /* zelfde als mission-statement */
+  padding: 20px 0;           /* ruimte boven en onder het logo */
+  text-align: center;        /* centreren van de afbeelding */
 }
 
 .site-logo img {
+  max-width: 300px;          /* logo schaalt automatisch tot max 300px breed */
+  width: 100%;
+  height: auto;
+}
+
+
+.warning-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+
+.danger-text {
+  font-weight: bold;
+  color: #990000;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.statement {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.site-logo {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  text-align: center;
+}
+.site-logo img {
   max-width: 300px;
+  height: auto;
+}
+.site-logo {
+  background-color: #f9f9f9; /* zelfde als mission-statement */
+  padding: 20px 0;           /* ruimte boven en onder het logo */
+  text-align: center;        /* centreren van de afbeelding */
+}
+
+.site-logo img {
+  max-width: 300px;          /* logo schaalt automatisch tot max 300px breed */
+  width: 100%;
+  height: auto;
+}/* === Site Logo === */
+.site-logo {
+  background-color: #f9f9f9; /* zelfde als mission-statement */
+  padding: 20px 0;           /* ruimte boven en onder het logo */
+  text-align: center;        /* centreren van de afbeelding */
+}
+
+.site-logo img {
+  max-width: 300px;          /* schaalt tot max 300px breed */
   width: 100%;
   height: auto;
 }
