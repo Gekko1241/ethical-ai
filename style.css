@@ -121,8 +121,27 @@
   height: auto;
 }/* === Site Logo === */
 .site-logo {
-  background-color: #f9f9f9; /* zelfde als mission-statement */
-  padding: 20px 0;           /* ruimte boven en onder het logo */
-  text-align: center;        /* centreren van de afbeelding */
+  background-color: #f9f9f9;
+  padding: 30px 0;
+  text-align: center;
 }
+
+.site-logo img {
+  max-width: 600px; /* breder logo */
+  width: 100%;
+  height: auto;
+  animation: fadeInLogo 2s ease-in-out; /* animatie toepassen */
+}
+
+/* Fade-in animatie */
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
 
