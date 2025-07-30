@@ -1,13 +1,13 @@
-/* === General Body Styling === */
+/* === Algemene Stijlen === */
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
   color: #222;
 }
 
-/* === Logo Section === */
+/* === Site Logo === */
 .site-logo {
   background-color: #f9f9f9;
   padding: 30px 0;
@@ -38,6 +38,8 @@ body {
   margin: 60px auto;
   padding: 20px;
   text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
   background-color: #f9f9f9;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
@@ -62,10 +64,7 @@ body {
   color: #000;
 }
 
-/* === Download Buttons === */
-.mission-actions a,
-.download-button,
-.contact-button {
+.mission-actions a {
   display: inline-block;
   margin: 12px 10px;
   padding: 12px 20px;
@@ -93,93 +92,7 @@ body {
   background-color: #0080ff;
 }
 
-/* === Self-Learning AI Section === */
-#self-learning-ai {
-  background-color: #1a1a1a;
-  color: #f8f8f8;
-  padding: 60px 20px;
-  border-top: 4px solid red;
-}
-
-#self-learning-ai h2,
-#self-learning-ai h3 {
-  color: #ffcc00;
-}
-
-#self-learning-ai ul {
-  line-height: 1.6;
-}
-
-#self-learning-ai blockquote {
-  border-left: 4px solid #ff3333;
-  padding-left: 10px;
-  color: #ff9999;
-  font-style: italic;
-}
-
-/* === AutoML Section === */
-#automl-warning {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 50px 20px;
-}
-
-#automl-warning h2 {
-  color: #ff0000;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#automl-warning h3 {
-  color: #ffcc00;
-  font-size: 20px;
-  margin-top: 30px;
-}
-
-#automl-warning p,
-#automl-warning ul {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-/* === Unguided Intelligence === */
-#unguided-intelligence {
-  background-color: #111;
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
-}
-
-#unguided-intelligence .danger-text {
-  font-weight: bold;
-  color: #ff4444;
-  font-size: 20px;
-  margin-top: 24px;
-}
-
-/* === Statement Section (GOD quote) === */
-.statement {
-  text-align: center;
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin: 2rem 0;
-  padding: 3rem 1rem;
-  background-color: #000;
-  color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
-}
-
-.god-quote {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #ff3333;
-  margin: 1.5rem 0;
-}
-
-/* === Warning Section === */
+/* === Waarschuwingssectie === */
 .warning-section {
   max-width: 800px;
   margin: 60px auto;
@@ -187,7 +100,9 @@ body {
   background-color: #fff4f4;
   border-left: 8px solid #cc0000;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
   text-align: left;
+  color: #222;
 }
 
 .warning-section h2 {
@@ -203,21 +118,30 @@ body {
   margin: 12px 0;
 }
 
-/* === Footer Contact === */
-.footer-contact {
-  text-align: center;
-  margin: 60px auto;
-}
-
-.footer-contact a {
-  background-color: #333;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
+.danger-text {
   font-weight: bold;
+  color: #990000;
+  font-size: 20px;
+  margin-top: 24px;
 }
 
-.footer-contact a:hover {
-  background-color: #555;
+/* === Statement Sectie === */
+.statement {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 3rem 1rem;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #ff3333;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(255,0,0,0.2);
+}
+
+.god-quote {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff3333;
+  margin: 1.5rem 0;
 }
